@@ -87,4 +87,4 @@ mkdir projects
     lsof -i :8000     "for which port coonnected or running'
     lsof -i tcp
     lsof -t udp
-
+    kill -9 <PID>     EX [ kill -9 2807 ]  for kill 
