@@ -88,3 +88,20 @@ mkdir projects
     lsof -i tcp
     lsof -t udp
     kill -9 <PID>     EX [ kill -9 2807 ]  for kill 
+    
+    -----------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------
+    we an run on docker also  uising docker file 
+    
+    vi Dockerfile
+    
+    FROM python:3
+    RUN pip install django==3.2
+
+    COPY . .
+    RUN python manage.py migrate
+    CMD ["python","manage.py","runserver","0.0.0.0:8001"] 
+    
+    
+    
+
