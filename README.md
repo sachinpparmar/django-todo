@@ -53,33 +53,33 @@ pip freeze > requirements.txt                "for requirements.txt file it creat
 for ec2 instance todo list
 
 mkdir projects
-    2  cd projects/
-    3  git clone https://github.com/sachinpparmar/django-todo.git
-    4  ls
-    5  cd django-todo/
-    6  pip install django
+     cd projects/
+    git clone https://github.com/sachinpparmar/django-todo.git
+     ls
+      cd django-todo/
+      pip install django
    
-    8  sudo apt install pip3
-    9  sudo apt-get update
+      sudo apt install pip3
+    sudo apt-get update
    
    
-   12  sudo apt install pip
-   13  pip install django
-   14  python3 manage.py migrate
-   15  sudo python3 manage.py migrate
-   16  pip install django
-   17  pip show django
+    sudo apt install pip
+   pip install django
+    python3 manage.py migrate
+   sudo python3 manage.py migrate
+    pip install django
+    pip show django
                                        
    
-   20  python3 manage.py runserver                   
-   21  python3 manage.py runserver 0.0.0.0:8000                                "if error come for web page use "*" in settings.py "
-   22  python3 manage.py runserver 0.0.0.0:8001
-   23  ls
-   24  cd todoApp
-   25  ls
-   26  vi settings.py 
-   27  python3 manage.py runserver 0.0.0.0:8001
-   28  cd ..
-   29  python3 manage.py runserver 0.0.0.0:8001
-   30  nohup python3 manage.py runserver 0.0.0.0:8001 &
+    python3 manage.py runserver                   
+    python3 manage.py runserver 0.0.0.0:8000                                "if error come for web page use "*" in settings.py "
+   python3 manage.py runserver 0.0.0.0:8001
+   ls
+   cd todoApp
+   ls
+    vi settings.py 
+   python3 manage.py runserver 0.0.0.0:8001
+    cd ..
+   python3 manage.py runserver 0.0.0.0:8001
+    nohup python3 manage.py runserver 0.0.0.0:8001 &              "for run in background"        
 
