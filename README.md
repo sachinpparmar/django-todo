@@ -81,5 +81,10 @@ mkdir projects
    python3 manage.py runserver 0.0.0.0:8001
     cd ..
    python3 manage.py runserver 0.0.0.0:8001
-    nohup python3 manage.py runserver 0.0.0.0:8001 &              "for run in background"        
+    nohup python3 manage.py runserver 0.0.0.0:8001 &              "for run in background"    
+    
+    
+    lsof -i :8000     "for which port coonnected or running'
+    lsof -i tcp
+    lsof -t udp
 
