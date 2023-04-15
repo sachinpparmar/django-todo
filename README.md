@@ -102,6 +102,16 @@ mkdir projects
     RUN python manage.py migrate
     CMD ["python","manage.py","runserver","0.0.0.0:8001"] 
     
-    
+ ---------------------------------------
+ ----------------------------------
+ for jenkins we can run 
+ 
+  sudo chown -R $USER /home/ubuntu/projects/django-todo
+  sudo chown -R jenkins /home/ubuntu/projects/django-todo
+  sudo usermod -aG docker $USER
+  sudo usermod -aG ubuntu jenkins 
+  sudo usermod -aG docker jenkins
+  
+
     
 
